@@ -1,4 +1,4 @@
-export function TodoList(todos) {
+export function TodoList({todos}) {
     return (
         <ul className='list'>
         {todos.length === 0 && "No Todos"}
